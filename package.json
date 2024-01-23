@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "prettier": "npx prettier --write .",
+    "format": "npx prettier --write .",
     "prepare": "husky install"
   },
   "private": true,
@@ -27,7 +27,7 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.10",
+    "@angular-devkit/build-angular": "17.0.10",
     "@angular-eslint/builder": "17.2.0",
     "@angular-eslint/eslint-plugin": "17.2.0",
     "@angular-eslint/eslint-plugin-template": "17.2.0",
@@ -53,8 +53,9 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "lint-staged": "15.2.0",
     "postcss": "8.4.33",
-    "prettier": "3.2.4",
+    "prettier": "^3.2.4",
     "prettier-eslint": "16.2.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "typescript": "~5.2.2"
   }
