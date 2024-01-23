@@ -2,9 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-features',
+  selector: 'shared-not-found',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './features.component.html',
+  templateUrl: './NotFound.component.html',
+  styleUrl: './NotFound.component.css',
 })
-export class FeaturesComponent {}
+export class NotFoundComponent {}
